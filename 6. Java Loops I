@@ -1,0 +1,27 @@
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.regex.*;
+
+
+
+public class Solution {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        int N = Integer.parseInt(bufferedReader.readLine().trim());
+        for (int i = 1 ; i<=10 ; i++)
+        System.out.println(N+" x "+i+" = "+(N*i));
+
+        bufferedReader.close();
+    }
+}
+
+explaination
+That's a loop that says, okay, for every time that i is smaller than and equals to 10,
+I'm going to do whatever is in the code block. Whenever i reaches 10, I'll stop.
+After each iteration of the loop, it increments i by 1 (i++),
+so that the loop will eventually stop when it meets the i <= 10 (i becomes 11, so no longer is smaller than) condition.
