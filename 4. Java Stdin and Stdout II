@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
+        
+        
+
+        // Write your code here.
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
+
+explaination
+
+The nextLine() method of java. util. Scanner class advances this scanner past the current line and returns the input that was skipped.
+This function prints the rest of the current line, leaving out the line separator at the end.
+
+.next function only store first word of string.
+
+scan.nextLine() will start on line 3 of input and grab the String we want.
